@@ -173,15 +173,17 @@ body.edit-mode .edit-hint{display:block;}
 }
 .brand{display:flex;align-items:center;gap:12px;}
 .brand-mark{
-  width:42px;height:42px;
+  width:46px;height:46px;
   border-radius:50%;
-  background:var(--teal);
+  background:var(--paper);
   color:var(--ivory);
   display:flex;align-items:center;justify-content:center;
   font-family:var(--font-mono);
   font-weight:600;
   font-size:0.85rem;
   flex-shrink:0;
+  object-fit:cover;
+  border:1.5px solid var(--sage-line);
 }
 .brand-text{display:flex;flex-direction:column;line-height:1.25;}
 .brand-name{font-family:var(--font-display);font-weight:600;font-size:1.02rem;}
